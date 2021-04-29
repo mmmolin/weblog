@@ -1,4 +1,4 @@
-baseURL = "https://nostalgic-poincare-68a92d.netlify.app"
+baseURL = "http://nostalgic-poincare-68a92d.netlify.app"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "harbor"
