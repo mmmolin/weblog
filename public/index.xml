@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Martin Molin on Martin Molin</title>
+		<link>/</link>
+		<description>Recent content in Martin Molin </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>en-us</language>
+		
+		<managingEditor>Page(&#34;Martin Molin&#34;)</managingEditor>
+    	
+  		<lastBuildDate>Wed, 28 Apr 2021 22:07:24 +0200</lastBuildDate>
+		
+		<atom:link href="/" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>
