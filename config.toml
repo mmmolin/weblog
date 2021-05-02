@@ -2,3 +2,10 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Martin Molin"
 theme = "harbor"
+
+[[params.nav]]
+  identifier = "about"
+  name = "About"
+  icon = "fas fa-user fa-lg"
+  url = "/about/"
+  weight = 3
