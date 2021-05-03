@@ -1,11 +1,32 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Martin Molin"
-theme = "harbor"
+theme = "etch"
 
-[[params.nav]]
-  identifier = "about"
-  name = "About"
-  icon = "fas fa-user fa-lg"
-  url = "/about/"
-  weight = 3
+[params]
+  description = "Your site description"
+  copyright = "Copyright © 2020 Your Name"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true
