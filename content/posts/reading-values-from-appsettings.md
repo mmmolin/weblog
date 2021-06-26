@@ -1,6 +1,7 @@
 ---
 title: Reading values from appsettings.json
 date: 2021-04-20
+draft: false
 ---
 Let’s see how we fetch data from the appsettings.json file to the controller. First off we got to add some worthwhile data to the appsettings.json file, what is more worthwhile than the meaning of life?
 
